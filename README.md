@@ -1,5 +1,5 @@
 # EMOBUDDY
-EMOBUDDY is an AI-powered mental health chatbot designed to provide emotional support and guidance to students. Developed using Flutter for the frontend and Flask for the backend, EMOBUDDY integrates with Google Gemini 1.5 Flash, fine-tuned on dataset of input column as user query and output column as empathetic answer on Google AI Studio, to deliver empathetic and personalized responses. The chatbot addresses various mental health issues like stress, anxiety, relationship challenges, and more.
+EMOBUDDY is an web app  based  AI-powered mental health chatbot designed to provide emotional support and guidance to user(students,adults,everyone).The web app is developed using Flutter for the frontend and Flask for the backend, EMOBUDDY integrates with Google Gemini 1.5 Flash, fine-tuned on dataset of input column as user query and output column as empathetic answer on Google AI Studio, to deliver empathetic and personalized responses. The chatbot addresses various mental health issues like stress, anxiety, relationship challenges, and more.
 
 # Features:
 1.User Authentication:-
