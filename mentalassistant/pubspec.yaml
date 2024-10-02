@@ -1,0 +1,43 @@
+name: mentalassistant
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  fl_chart: ^0.69.0
+  uuid: ^3.0.6
+
+  http: ^1.2.2
+  # Specify a version for http
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/mentalimage.png
+    - assets/images/backgroundimage.jpg
+    - assets/images/signup_background.jpg
+    - assets/images/Screenshot_2024-10-01_221040-removebg-preview.png
+    - assets/images/logo.png
+    - assets/images/logo2.png
+    - assets/images/logo3.png
+    - assets/images/logo4.png
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

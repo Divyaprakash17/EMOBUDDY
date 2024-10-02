@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Base href for your web app -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="mentalassistant">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>mentalassistant</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Insert Firebase SDK and Initialization Code Here -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+    import { getAuth } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDWmdCXnDiiFOXRzEAc7P_UrebXtR-crHY",
+      authDomain: "mentalchatbot-bc114.firebaseapp.com",
+      projectId: "mentalchatbot-bc114",
+      storageBucket: "mentalchatbot-bc114.appspot.com",
+      messagingSenderId: "968141991039",
+      appId: "1:968141991039:web:8850c698c11fe9d20fa34a"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    // Initialize Firebase Authentication
+    const auth = getAuth(app);
+  </script>
+</head>
+<body>
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
