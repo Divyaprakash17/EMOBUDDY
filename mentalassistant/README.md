@@ -1,4 +1,4 @@
-# mentalassistant
+# EMOBUDDY
 
 A new Flutter project.
 
