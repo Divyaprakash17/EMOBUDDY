@@ -38,6 +38,13 @@ The Flask backend handles user queries, processes sentiment analysis, and integr
 
 Chat logs and sentiment data are stored securely using Firebase Realtime Database, ensuring real-time synchronization of user interactions and data.
 
+# Fine-Tuned Model Performance Summary
+
+The fine-tuning process on the Gemini 1.5 model involved 23,001 training examples and took 10 hours 41 minutes to complete over 5 epochs. The model was trained with a batch size of 16 and a learning rate of 0.0002, leading to a significant decrease in loss from above 90 to below 10. The smooth loss curve indicates stable and effective learning. This fine-tuned model is now well-optimized to handle queries related to its target application, such as mental health support.
+
+![Screenshot 2024-10-02 165555](https://github.com/user-attachments/assets/24908b2d-3dea-41f9-8c66-a54ea8388fa4)
+
+
 # Technologies Used
 
 Flutter (Dart) 
@@ -49,4 +56,5 @@ AI Model: Google Gemini 1.5 Flash
 Authentication and Database: Firebase
 
 Visualization: fl_chart
+
 
